@@ -1,12 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 
 * {
-padding: 0;
-margin: 0;
-box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
 
-ul, ol, menu {
+ul,
+ol,
+menu {
     list-style: none;
 }
 
@@ -16,4 +18,24 @@ img {
 
 html {
     font-family: 'Inter', sans-serif;
+}
+
+/* LAYOUT */
+
+#app {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-content {
+    flex-grow: 1;
+    background-color: #000;
+    color: #FFF;
+    padding: 3rem 3rem 1rem;
+}
+
+.toolbar {
+    background-color: #222;
+    min-height: 100px;
 }
