@@ -39,3 +39,16 @@ html {
     background-color: #222;
     min-height: 100px;
 }
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card-container {
+    width: calc(100% / 7);
+    aspect-ratio: 16 / 9;
+    padding: 3px 2px;
+}
+
+/* CARD */
