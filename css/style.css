@@ -31,6 +31,7 @@ html {
 }
 
 .main-content {
+    overflow: scroll;
     flex-grow: 1;
     background-color: #000;
     color: #FFF;
@@ -48,7 +49,7 @@ html {
 }
 
 .card-container {
-    width: calc(100% / 7);
+    flex: 1 1 200px;
     aspect-ratio: 16 / 9;
     padding: 3px 2px;
 }
@@ -75,6 +76,7 @@ html {
     position: absolute;
     right: 0.25rem;
     top: 0.25rem;
+    z-index: 999;
 
 }
 
